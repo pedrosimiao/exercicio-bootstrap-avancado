@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gorduratrans</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <style>
+        body {
+            background-color: rgb(0, 0, 0);
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff;
+        }
+
+        .navbar-nav .nav-link.active {
+            background-color: red;
+        }
+
+        .nav-link {
+            text-align: center;
+        }
+
+        header {
+            background-color: black;
+        }
+
+        #logo {
+            max-width: 60%;
+        }
+    </style>
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <img id="logo" class="img-fluid" src="./images/logo-gorduratrans.png" alt="gorduratrans">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills mt-2">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#bio">Bio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#merch">Merch</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container mt-2">
+        <div id="carousel-gordura" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="4000" class="carousel-item active">
+                    <img class="d-block w-100" src="./images/santo-andre-all-1.jpg" alt="monte-vassalo">
+                </div>
+                <div data-bs-interval="4000" class="carousel-item">
+                    <img class="d-block w-100" src="./images/santo-andre-gabriel.jpg" alt="satãdré">
+                </div>
+                <div data-bs-interval="4000" class="carousel-item">
+                    <img class="d-block w-100" src="./images/bangu-all.jpg" alt="quente">
+                </div>
+                <div data-bs-interval="4000" class="carousel-item">
+                    <img class="d-block w-100" src="./images/santo-andre-luiz.jpg" alt="tu é cachorro, tu?">
+                </div>
+                <div data-bs-interval="4000" class="carousel-item">
+                    <img class="d-block w-100" src="./images/brasilia-all.jpeg" alt="ponto-peixinho">
+                </div>
+                <div  data-bs-interval="4000" class="carousel-item">
+                    <img class="d-block w-100" src="./images/santo-andre-all-2.jpg" alt="ainda">
+                </div>
+            </div>
+            <button data-bs-target="#carousel-gordura" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-gordura" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+    <div class="container" id="vazio"></div>
+    <div class="container mt-2 pt-2" id="merch">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm col-sm mt-4">
+                <div class="card text-bg-dark">
+                    <img src="./images/camiseta-zera.png">
+                    <div class="card-body">
+                        <h4 class="card-title">Camiseta Zera</h4>
+                        <h5 class="card-subtitle">Tamanhos P, M, G, GG e XGG</h5>
+                        <a href="#" class="btn btn-danger">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm col-sm mt-4">
+                <div class="card text-bg-dark">
+                    <img src="./images/hoodie-zera.png">
+                    <div class="card-body">
+                        <h4 class="card-title">Hoodie Zera</h4>
+                        <h5 class="card-subtitle">Tamanhos P, M, G, GG</h5>
+                        <a href="#" class="btn btn-danger">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm col-sm mt-4">
+                <div class="card text-bg-dark">
+                    <img src="./images/moletom-zera.png">
+                    <div class="card-body">
+                        <h4 class="card-title">Moletom Zera</h4>
+                        <h5 class="card-subtitle">Tamanhos P, M, G, GG</h5>
+                        <a href="#" class="btn btn-danger">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm col-sm mt-4">
+                <div class="card text-bg-dark">
+                    <img src="./images/camiseta-paroxismos.png">
+                    <div class="card-body">
+                        <h4 class="card-title">Camiseta Paroxismos</h4>
+                        <h5 class="card-subtitle">Tamanhos P, M, G, GG e XGG</h5>
+                        <a href="#" class="btn btn-danger">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm col-sm mt-4">
+                <div class="card text-bg-dark">
+                    <img src="./images/album-repertorio.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Repertório Infindável de Dolorosas Piadas</h4>
+                        <a href="#" class="btn btn-danger">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm col-sm mt-4">
+                <div class="card text-bg-dark">
+                    <img src="./images/album-paroxismos.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Paroxismos</h4>
+                        <a href="#" class="btn btn-danger">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
